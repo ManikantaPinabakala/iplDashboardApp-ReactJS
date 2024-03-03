@@ -1,0 +1,84 @@
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.latest-match-top-container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #475569;
+}
+
+.opponent-name {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.match-date {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.match-venue,
+.match-result {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.opponent-logo {
+  height: 120px;
+  width: 120px;
+}
+
+.latest-match-bottom-container {
+  padding: 30px;
+  border-top: 1px solid #475569;
+}
+
+.latest-match-info-label {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.latest-match-info-value {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.latest-match-mom-label {
+  color: #ffffff;
+  font-size: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-container {
+    display: flex;
+  }
+
+  .latest-match-top-container {
+    border-bottom: none;
+    min-width: 60%;
+    padding-left: 40px;
+  }
+
+  .opponent-logo {
+    min-width: 150px;
+    min-height: 150px;
+    max-height: 280px;
+  }
+
+  .latest-match-bottom-container {
+    flex-grow: 1;
+    border-top: none;
+    padding-right: 40px;
+  }
+
+  .latest-match-info-label,
+  .latest-match-info-value,
+  .latest-match-mom-label {
+    text-align: right;
+  }
+}
